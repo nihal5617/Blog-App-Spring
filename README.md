@@ -34,7 +34,7 @@ Once you run Spring boot application, Hibernate will create the database tables 
 ### 4. Insert Data
 User below Insert SQL statements to insert records into roles table:
 ```sql
-INSERT INTO `myblog.roles` VALUES (1,'ADMIN'),(2,'USER');
+INSERT INTO `blog_app.roles` VALUES (1,'ADMIN'),(2,'USER');
 ```
 Now, Spring boot blog application is ready to use.
 
